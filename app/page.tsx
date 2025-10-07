@@ -386,19 +386,37 @@ const perfumes: Perfume[] = [
   },
   {
     id: 84,
-    marca: "Salvo",
-    nombre: "Salvo Elixir 60ml EDP",
+    marca: "Tubees",
+    nombre: "Cookies & Cream 50ml EDP",
     imagen: "https://i.imgur.com/gcNNgi6.png", 
-    precio: 37800,
+    precio: 27000,
     notas: {
-      salida: ["Bergamota", "limón", "pimienta"],
-      corazon: ["Lavanda", "geranio", "especias"],
-      fondo: ["Sándalo", "pachulí", "almizcle"],
+      salida: ["Mantequilla", "azúcar"],
+      corazon: ["Leche", "chocolate con leche"],
+      fondo: ["Vainilla", "almizcle blanco"],
     },
-    genero: "Hombre",
-    fragancia_referencia: "Sauvage Elixir - Dior", //que pasa
-    descripcion: "Una fragancia masculina intensa y duradera, con notas frescas y especiadas. Perfecta para el hombre moderno que busca un aroma distintivo y elegante.",
-    rating: 4.7,
+    genero: "Unisex",
+    fragancia_referencia: "-", //que pasa
+    descripcion: "Huele a postre recién hecho, a cocina dulce y momentos felices.",
+    rating: 4.8,
+    sinDescuento: false,
+  },
+  {
+    id: 84,
+    marca: "Tubees",
+    nombre: "Sweet Caramel 50ml EDP",
+    imagen: "https://i.imgur.com/gcNNgi6.png", 
+    precio: 27000,
+    notas: {
+      salida: ["-"],
+      corazon: ["Leche", "vainilla"],
+      fondo: ["Vainilla", "haba tonka"],
+    },
+    genero: "Unisex",
+    fragancia_referencia: "-", //que pasa
+    descripcion: "Deliciosamente cremosa y envolvente, pensada para quienes aman los perfumes que huelen a postre. Una fragancia adictiva que transmite ternura, calidez y placer instantáneo.
+",
+    rating: 4.8,
     sinDescuento: false,
   },
 ]
